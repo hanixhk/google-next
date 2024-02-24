@@ -23,7 +23,6 @@ export default function SearchBox() {
     onSubmit={handleSubmit}
     className='flex border border-gray-200 rounded-full shadow-lg px-6 py-3 mr-5 flex-grow max-w-3xl items-center'>   
   <input
-   onChange={(e) => setTerm(e.target.value)}
    type='text' 
    className='w-full focus:outline:none'
    value={term}/>
